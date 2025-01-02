@@ -1,7 +1,4 @@
 "use client"
-import Image, { type ImageProps } from "next/image";
-
-import styles from "./page.module.css";
 import {TextInput} from "@repo/ui/text-input"
 import { Button } from "@repo/ui/button";
 import { useState } from "react";

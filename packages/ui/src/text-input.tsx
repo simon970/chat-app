@@ -2,7 +2,7 @@
 interface PropType{
     placeholder:string,
     size:"big"| "small",
-    onChange:(e:any)=>void
+    onChange?:(e:any)=>void
   
 }
 
